@@ -22,3 +22,9 @@ A simple to-do list web app built with PHP and sessions. Users can add, complete
 1. Install [WAMP](https://www.wampserver.com/) or any PHP web server.
 2. Place the project folder inside the `www` directory (or equivalent).
 3. Start the server and visit `http://localhost/todo_list/form.php` in your browser.
+
+
+## Screenshot
+
+
+![screenshot](website_image.png)
