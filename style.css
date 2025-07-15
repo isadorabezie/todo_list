@@ -1,0 +1,128 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header */
+#header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#header h1 {
+    font-size: 3em;
+    margin: 0;
+    color: #333;
+}
+
+#header h2 {
+    font-weight: normal;
+    color: #666;
+}
+
+/* Task input form */
+#task_input {
+    background: white;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+#task_input input[type="text"] {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#task_input input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#task_input input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Task lists */
+.task_list {
+    background: white;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.task_list h2 {
+    color: #333;
+}
+
+.task_list ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.task_list li {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Buttons */
+.task_list input[type="submit"] {
+    margin-top: 5px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.task_list form {
+    display: inline;
+}
+
+.task_list input[name="remove"] + input[type="submit"],
+.task_list input[name="complete"] + input[type="submit"] {
+    margin-left: 5px;
+}
+
+input[value="Remove"] {
+    background-color: #dc3545;
+    color: white;
+}
+
+input[value="Completed"] {
+    background-color: #28a745;
+    color: white;
+}
+
+input[value="Clear All Tasks"] {
+    background-color: #ffc107;
+    color: #333;
+    padding: 10px 16px;
+    margin: 20px auto;
+    display: block;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[value="Clear All Tasks"]:hover {
+    background-color: #e0a800;
+}
